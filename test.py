@@ -6,7 +6,7 @@ openai.api_key = "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"
 
 # Set up the model and prompt
 model_engine = "text-davinci-003"
-prompt = "who are you?"
+prompt = "Hi, dear?"
 
 # Generate a response
 completion = openai.Completion.create(
